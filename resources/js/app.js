@@ -1,6 +1,10 @@
 import './bootstrap';
 import '../css/app.css';
 
+// Leafet.js
+import 'leaflet/dist/leaflet.css'
+import L from 'leaflet';
+
 import { createApp, h } from 'vue';
 import { createInertiaApp } from '@inertiajs/inertia-vue3';
 import { InertiaProgress } from '@inertiajs/progress';
